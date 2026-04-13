@@ -19,10 +19,12 @@
     "src"
   ],
   "scripts": {
-    "dev": "vite dev --config dev/vite.config.js --root dev",
+    "dev": "vite --config dev/vite.config.js",
     "build": "vite build",
     "preview": "vite preview",
-    "prepare": "vite build"
+    "prepare": "vite build",
+    "docs:build": "vite build --config dev/vite.config.js",
+    "docs:deploy": "npm run docs:build && wrangler pages deploy dev/dist --project-name=bds-ui-kit --branch=main"
   },
   "peerDependencies": {
     "vue": "^3.4.0"
@@ -31,6 +33,7 @@
     "@vitejs/plugin-vue": "^6.0.6",
     "highlight.js": "^11.11.1",
     "vite": "^8.0.8",
-    "vue": "^3.5.32"
+    "vue": "^3.5.32",
+    "wrangler": "^4.82.1"
   }
 }

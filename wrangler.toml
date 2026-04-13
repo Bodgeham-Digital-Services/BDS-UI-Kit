@@ -1,0 +1,2 @@
+name = "bds-ui-kit"
+pages_build_output_dir = "dev/dist"
