@@ -1,0 +1,36 @@
+{
+  "name": "bds-ui-kit",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Bodgeham Design System UI Kit for Vue 3",
+  "license": "MIT",
+  "main": "./dist/bds-ui-kit.umd.js",
+  "module": "./dist/bds-ui-kit.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/bds-ui-kit.es.js",
+      "require": "./dist/bds-ui-kit.umd.js"
+    },
+    "./style.css": "./dist/style.css",
+    "./tokens": "./src/tokens/index.css"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "dev": "vite dev --config dev/vite.config.js --root dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "prepare": "vite build"
+  },
+  "peerDependencies": {
+    "vue": "^3.4.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.6",
+    "highlight.js": "^11.11.1",
+    "vite": "^8.0.8",
+    "vue": "^3.5.32"
+  }
+}

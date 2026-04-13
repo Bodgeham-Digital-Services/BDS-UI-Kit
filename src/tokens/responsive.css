@@ -1,0 +1,28 @@
+@media (max-width: 768px) {
+  .govuk-grid-column-one-third,
+  .govuk-grid-column-two-thirds,
+  .govuk-grid-column-one-half {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .govuk-heading-xl { font-size: 32px; }
+  .govuk-heading-l { font-size: 28px; }
+  .govuk-body-l { font-size: 20px; }
+  .govuk-panel { padding: 20px; }
+
+  .govuk-width-container { padding: 0 15px; }
+  .govuk-main-wrapper { padding-top: 20px; padding-bottom: 20px; }
+
+  .govuk-summary-list__key,
+  .govuk-summary-list__value {
+    display: block;
+    padding: 5px 0;
+    width: 100%;
+  }
+
+  .govuk-summary-list__row {
+    display: block;
+    padding: 10px 0;
+  }
+}

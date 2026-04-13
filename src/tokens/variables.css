@@ -1,0 +1,29 @@
+:root {
+  /* Colors */
+  --govuk-colour-black: #0b0c0c;
+  --govuk-colour-dark-grey: #6f777b;
+  --govuk-colour-mid-grey: #b1b4b6;
+  --govuk-colour-light-grey: #f3f2f1;
+  --govuk-colour-white: #ffffff;
+  --govuk-colour-blue: #1d70b8;
+  --govuk-colour-dark-blue: #003078;
+  --govuk-colour-green: #00703c;
+  --govuk-colour-dark-green: #005a30;
+  --govuk-colour-red: #d4351c;
+  --govuk-colour-purple: #4c2c92;
+  --govuk-colour-yellow: #ffdd00;
+  --govuk-colour-orange: #f47738;
+
+  /* Typography */
+  --govuk-font-family: "GDS Transport", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --govuk-font-size-base: 19px;
+  --govuk-line-height-base: 1.5;
+
+  /* Spacing */
+  --govuk-spacing-1: 5px;
+  --govuk-spacing-2: 10px;
+  --govuk-spacing-3: 15px;
+  --govuk-spacing-4: 20px;
+  --govuk-spacing-5: 30px;
+  --govuk-spacing-6: 40px;
+}

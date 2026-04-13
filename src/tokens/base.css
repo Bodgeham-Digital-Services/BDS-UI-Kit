@@ -1,0 +1,15 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--govuk-font-family);
+  font-size: var(--govuk-font-size-base);
+  line-height: var(--govuk-line-height-base);
+  color: var(--govuk-colour-black);
+  background-color: var(--govuk-colour-white);
+  margin: 0;
+  padding: 0;
+}

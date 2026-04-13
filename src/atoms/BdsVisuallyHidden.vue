@@ -1,0 +1,24 @@
+<script setup>
+const props = defineProps({
+  tag: { type: String, default: 'span' },
+});
+</script>
+
+<template>
+  <component :is="tag" class="govuk-visually-hidden"><slot /></component>
+</template>
+
+<style scoped>
+.govuk-visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+</style>
